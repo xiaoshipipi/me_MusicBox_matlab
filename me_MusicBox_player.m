@@ -1,5 +1,5 @@
 function me_MusicBox_player(varargin)
-% 音乐播放器，功能简单
+% 功能简单的音乐播放器GUI
 % p.s. 其实不用这个播放器也可以直接播放，毕竟是标准的波形文件，用sound(data,41000)也可以播放，只是没有暂停功能很蛋疼
 global H_FIG H_K1 H_K2 H_T1 H_M1 H_M2 H_AP Y Fs H_C1 H_S1
 if nargin<=2
