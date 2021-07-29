@@ -1,7 +1,7 @@
 function [ freq ] = me_MusicBox_freq( note )
 %   把音符（eg.A4，#C1，bG5），转换为频率
-%   此处显示详细说明
-standardA4=440;%标准A4为440hz
+
+standardA4=440; %标准A4频率为440hz
 if strcmp(note(1),'b')
    note(2)=note(2)-1;
    note(1)='#';
