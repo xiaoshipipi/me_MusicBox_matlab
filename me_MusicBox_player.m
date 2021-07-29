@@ -96,11 +96,13 @@ if time_minute<10
     str_minute=['0',num2str(time_minute)];
 elseif time_minute<=99
     str_minute=num2str(time_minute);
-else str_minute='99';
+else
+    str_minute='99';
 end
 if time_second<10
     str_second=['0',num2str(time_second)];
-else str_second=num2str(time_second);
+else
+    str_second=num2str(time_second);
 end
 str_time=[str_minute,':',str_second];
 end
